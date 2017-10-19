@@ -71,13 +71,6 @@
     "webpack-dev-server": "^2.9.2"
   },
   "license": "BSD-3-Clause",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/quilljs/quill"
-  },
-  "bugs": {
-    "url": "https://github.com/quilljs/quill/issues"
-  },
   "scripts": {
     "build": "webpack --config _develop/webpack.config.js; rm dist/quill.core dist/quill.bubble dist/quill.snow;",
     "build:release": "./_develop/scripts/release.sh",
